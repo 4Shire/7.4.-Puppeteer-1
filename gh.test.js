@@ -37,9 +37,9 @@ describe("Github page tests", () => {
 });
 
 describe("Add new tests", () => {
-  afterEach(() => {
-    page.close();
-  });
+  //afterEach(() => {
+  // page.close();
+  //});
 
   test("Tab Marketplace", async () => {
     await page.goto("https://github.com/marketplace");
